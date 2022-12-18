@@ -19,7 +19,7 @@ def events(screen, gun, bullets):
             elif event.key == pg.K_SPACE:
                 new_bullet = Bullet(screen, gun)
                 bullets.add(new_bullet)
-                pg.mixer.music.load('C:/Users/BaronPipistron/PycharmProjects/MAI Invaders//Sounds/ShootSound.mp3')
+                pg.mixer.music.load('Sounds/ShootSound.mp3')
                 pg.mixer.music.play()
         elif event.type == pg.KEYUP:
             """movement to the right"""
@@ -62,7 +62,7 @@ def gun_kill(stats, screen, sc, gun, aliens, bullets):
     """gun and aliens collision"""
     if stats.guns_loss > 1:
         stats.guns_loss -= 1
-        pg.mixer.music.load('C:/Users/BaronPipistron/PycharmProjects/MAI Invaders/Sounds/najs-djemejdzh-najs-balans.mp3')
+        pg.mixer.music.load('Sounds/DeathSound.mp3')
         pg.mixer.music.play()
         sc.image_lives()
         aliens.empty()
@@ -72,7 +72,7 @@ def gun_kill(stats, screen, sc, gun, aliens, bullets):
         time.sleep(1)
     else:
         stats.run_game = False
-        pg.mixer.music.load('C:/Users/BaronPipistron/PycharmProjects/MAI Invaders/Sounds/sosaliti.mp3')
+        pg.mixer.music.load('Sounds/GameOverSound.mp3')
         pg.mixer.music.play()
         time.sleep(2)
         sys.exit()
@@ -117,5 +117,5 @@ def check_high_score(stats, sc):
     if stats.score > stats.high_score:
         stats.high_score = stats.score
         sc.image_high_score()
-        with open('C:/Users/BaronPipistron/PycharmProjects/MAI Invaders/Scores/HighScore.txt', 'w') as fp:
+        with open('Scores/HighScore.txt', 'w') as fp:
             fp.write(str(stats.high_score))

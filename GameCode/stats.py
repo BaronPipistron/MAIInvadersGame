@@ -5,7 +5,7 @@ class Stats:
         """initializes statistics"""
         self.reset_stats()
         self.run_game = True
-        with open('C:/Users/BaronPipistron/PycharmProjects/MAI Invaders/Scores/HighScore.txt', 'r') as fp:
+        with open('Scores/HighScore.txt', 'r') as fp:
             self.high_score = int(fp.readline())
 
     def reset_stats(self):

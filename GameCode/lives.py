@@ -8,7 +8,7 @@ class Lives(Sprite):
         """lives initialization"""
         super(Lives, self).__init__()
         self.screen = screen
-        self.image = pg.image.load('C:/Users/BaronPipistron/PycharmProjects/MAI Invaders/Images/Live.png')
+        self.image = pg.image.load('Images/Live.png')
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
 

@@ -8,7 +8,7 @@ class Alien(pg.sprite.Sprite):
         """initialize and spare initial position"""
         super(Alien, self).__init__()
         self.screen = screen
-        self.image = pg.image.load('C:/Users/BaronPipistron/PycharmProjects/MAI Invaders/Images/AlienToGame.png')
+        self.image = pg.image.load('Images/AlienToGame.png')
         self.rect = self.image.get_rect()
         self.rect.x = self.rect.width
         self.rect.y = self.rect.height

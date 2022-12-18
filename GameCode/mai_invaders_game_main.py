@@ -21,7 +21,7 @@ def run():
     controls.create_army(screen, aliens)
     stats = Stats()
     sc = Scores(screen, stats)
-    pg.mixer.music.load('C:/Users/BaronPipistron/PycharmProjects/MAI Invaders/Sounds/aaa-sejchas-ja-budu-vas-rezat.mp3')
+    pg.mixer.music.load('Sounds/OpeningSound.mp3')
     pg.mixer.music.play()
 
     while True:
