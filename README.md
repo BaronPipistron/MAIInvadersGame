@@ -1,6 +1,6 @@
 # "MAI Invaders" Game
 
-#Rus:
+Rus:
 
 "MAI Invaders" - игра, созданная на языке Python независимым разработчиком в рамках реферата по Фундаментальной информатике
 
@@ -16,7 +16,7 @@ ToDownload - содержит в себе скачиваемые файлы дл
 
 MaiInvaders.pdf - отчет о проделанной работе
 
-#Eng:
+Eng:
 
 "MAI Invaders" is a game created in Python by a freelance developer as part of the Fundamental Computer Science project.
 
