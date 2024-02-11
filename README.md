@@ -12,8 +12,6 @@ Scores - содержит в себе файл с расширением .txt, �
 
 Sounds - содержит в себе игровые звуки
 
-ToDownload - содержит в себе скачиваемые файлы для PyCharm
-
 MaiInvaders.pdf - отчет о проделанной работе
 
 # Eng:
@@ -27,7 +25,5 @@ Images - contains game models
 Scores - contains a .txt file that follows the record
 
 Sounds - contains game sounds
-
-ToDownload - contains downloadable files for PyCharm
 
 MaiInvaders.pdf - progress report
